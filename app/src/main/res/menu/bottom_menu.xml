@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_24"/>
+    <item android:id="@+id/comodos"
+        android:title="Comodos"
+        android:icon="@drawable/ic_room_24"/>
+
+    <item android:id="@+id/agrupados"
+        android:title="Agrupados"
+        android:icon="@drawable/ic_home_24"/>
+
+    <item android:id="@+id/visaoSuperior"
+        android:title="Visao Superior"
+        android:icon="@drawable/ic_floor_plan_24"/>
+
+</menu>

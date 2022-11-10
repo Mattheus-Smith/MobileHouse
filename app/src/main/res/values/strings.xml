@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MobileHouse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinner_tema">
+        <item>Claro</item>
+        <item>Escuro</item>
+    </string-array>
+
+
+
+</resources>

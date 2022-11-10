@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MobileHouse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azulEscuro</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowBackground">@color/black</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+<!--  DIVIDER  -->
+    <style name="divider">
+        <item name="android:background">@color/black</item>
+    </style>
+
+<!--  BOTTOM NAVIGATION  -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/azulEscuro</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!--  texto  -->
+    <style name="Texto" >
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--  constraintlayout  -->
+    <style name="constraintlayout" >
+        <item name="android:background">@color/azulEscuro</item>
+    </style>
+
+    <!--  FloatingActionButton  -->
+    <style name="Widget.Design.FloatingActionButtonView" parent="android:Widget">
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="backgroundTint">@color/cinzaClaro</item>
+<!--        <item name="backgroundTint">@color/material_dynamic_neutral60</item>-->
+    </style>
+
+</resources>
